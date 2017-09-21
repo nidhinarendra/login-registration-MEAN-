@@ -1,0 +1,148 @@
+16:10:43.174 INFO  The user 8accessing /homepage 
+16:11:07.784 INFO  The user 8logging out 
+16:11:45.882 INFO  The user 9accessing /homepage 
+16:11:47.912 INFO  The user 9logging out 
+16:12:08.541 INFO  select * from members where email='pp@gmail.com' 
+16:12:08.551 INFO  Login successfulfor the user, undefined 
+16:12:08.562 INFO  The user undefinedaccessing /homepage 
+16:12:27.012 INFO  The user undefinedaccessing /homepage 
+14:05:58.167 INFO  The user 10accessing /homepage 
+14:06:18.036 INFO  The user 10logging out 
+14:06:40.473 INFO  select * from members where email='abc@gmail.com' 
+14:06:40.488 INFO  Login successfulfor the user, undefined 
+14:06:40.505 INFO  The user undefinedaccessing /homepage 
+12:44:07.728 INFO  select * from members where email='nidhi@gmail.com' 
+12:44:17.672 INFO  select * from members where email='pooja@gmail.com' 
+12:44:32.866 INFO  select * from members where email='pooja@gmail.com' 
+12:44:53.571 INFO  select * from members where email='nidhi@gmail.com' 
+12:15:19.322 INFO  The user 1accessing /homepage 
+12:19:19.273 INFO  select * from userDetails where email='ni@gmail.com' 
+12:19:19.329 INFO  Login successfulfor the user, undefined 
+12:19:19.356 INFO  The user undefinedaccessing /homepage 
+12:25:17.315 INFO  The user undefinedaccessing /homepage 
+12:26:28.310 INFO  select * from userDetails where email='ni@gmail.com' 
+12:26:28.367 INFO  Login successfulfor the user, undefined 
+12:26:28.401 INFO  The user undefinedaccessing /homepage 
+12:32:25.565 INFO  select * from userDetails where email='ni@gmail.com' 
+12:32:25.613 INFO  Login successfulfor the user, undefined 
+12:32:25.631 INFO  The user undefinedaccessing /homepage 
+12:32:38.941 INFO  The user undefinedaccessing /homepage 
+12:32:42.401 INFO  The user undefinedaccessing /homepage 
+12:32:57.847 INFO  The user undefinedaccessing /homepage 
+12:33:09.277 INFO  The user undefinedaccessing /homepage 
+12:33:14.070 INFO  The user undefinedaccessing /homepage 
+12:33:28.636 INFO  select * from userDetails where email='ni@gmail.com' 
+12:33:28.677 INFO  Login successfulfor the user, undefined 
+12:33:28.699 INFO  The user undefinedaccessing /homepage 
+12:34:08.495 INFO  The user undefinedaccessing /homepage 
+12:34:33.054 INFO  The user undefinedaccessing /homepage 
+12:35:19.073 INFO  The user undefinedaccessing /homepage 
+12:37:23.785 INFO  select * from userDetails where email='ni@gmail.com' 
+12:37:23.840 INFO  Login successfulfor the user, undefined 
+12:37:23.862 INFO  The user undefinedaccessing /homepage 
+12:37:44.611 INFO  The user undefinedaccessing /homepage 
+12:37:59.095 INFO  select * from userDetails where email='ni@gmail.com' 
+12:37:59.146 INFO  Login successfulfor the user, undefined 
+12:37:59.169 INFO  The user undefinedaccessing /homepage 
+12:39:22.887 INFO  select * from userDetails where email='ni@gmail.com' 
+12:39:22.942 INFO  Login successfulfor the user, undefined 
+12:39:22.971 INFO  The user undefinedaccessing /homepage 
+12:39:56.695 INFO  select * from userDetails where email='ni@gmail.com' 
+12:39:56.700 INFO  Login successfulfor the user, undefined 
+12:39:56.712 INFO  The user undefinedaccessing /homepage 
+12:40:13.256 INFO  select * from userDetails where email='ni@gmail.com' 
+12:40:13.262 INFO  Login successfulfor the user, undefined 
+12:40:13.273 INFO  The user undefinedaccessing /homepage 
+12:40:43.438 INFO  The user 2accessing /homepage 
+12:40:55.696 INFO  select * from userDetails where email='nidhi@gmail.com' 
+12:40:55.700 INFO  Login successfulfor the user, undefined 
+12:40:55.713 INFO  The user undefinedaccessing /homepage 
+12:41:07.920 INFO  select * from userDetails where email='nidhi@gmail.com' 
+12:47:36.527 INFO  select * from userDetails where email='ni@gmail.com' 
+12:47:36.576 INFO  Login successfulfor the user, undefined 
+12:47:36.596 INFO  The user undefinedaccessing /homepage 
+12:47:54.988 INFO  The user undefinedaccessing /homepage 
+12:48:07.506 INFO  The user undefinedaccessing /homepage 
+12:48:15.569 INFO  The user undefinedaccessing /homepage 
+12:48:28.488 INFO  The user undefinedaccessing /homepage 
+12:49:01.138 INFO  The user undefinedaccessing /homepage 
+12:49:05.695 INFO  The user undefinedaccessing /homepage 
+12:49:24.084 INFO  The user undefinedaccessing /homepage 
+12:49:26.804 INFO  The user undefinedaccessing /homepage 
+12:49:35.561 INFO  select * from userDetails where email='ni@gmail.com' 
+12:49:35.606 INFO  Login successfulfor the user, undefined 
+12:49:35.635 INFO  The user undefinedaccessing /homepage 
+12:50:24.437 INFO  select * from userDetails where email='ni@gmail.com' 
+12:50:24.444 INFO  Login successfulfor the user, undefined 
+12:50:24.467 INFO  The user undefinedaccessing /homepage 
+12:52:33.277 INFO  The user 3accessing /homepage 
+12:52:48.533 INFO  select * from userDetails where email='apple@gmail.com' 
+12:52:48.543 INFO  Login successfulfor the user, undefined 
+12:52:48.562 INFO  The user undefinedaccessing /homepage 
+12:52:59.405 INFO  select * from userDetails where email='apple@gmail.com' 
+12:53:20.488 INFO  The user undefinedaccessing /homepage 
+12:53:22.613 INFO  The user undefinedaccessing /homepage 
+13:27:59.756 INFO  select * from userDetails where email='ni@gmail.com' 
+13:27:59.787 INFO  Login successfulfor the user, undefined 
+13:27:59.800 INFO  The user undefinedaccessing /homepage 
+13:36:28.325 INFO  select * from userDetails where email='ni@gmail.com' 
+13:36:28.353 INFO  Login successfulfor the user, undefined 
+13:36:28.362 INFO  The user undefinedaccessing /homepage 
+13:37:39.788 INFO  select * from userDetails where email='ni@gmail.com' 
+13:37:39.814 INFO  Login successfulfor the user, undefined 
+13:37:39.825 INFO  The user undefinedaccessing /homepage 
+13:39:02.616 INFO  The user undefinedaccessing /homepage 
+13:41:25.235 INFO  select * from userDetails where email='ni@gmail.com' 
+13:41:25.266 INFO  Login successfulfor the user, undefined 
+13:41:25.285 INFO  The user undefinedaccessing /homepage 
+13:43:41.796 INFO  The user undefinedaccessing /homepage 
+13:43:59.149 INFO  select * from userDetails where email='ni@gmail.com' 
+13:43:59.179 INFO  Login successfulfor the user, undefined 
+13:43:59.192 INFO  The user undefinedaccessing /homepage 
+13:44:02.619 INFO  The user undefinedlogging out 
+13:45:20.605 INFO  select * from userDetails where email='ni@gmail.com' 
+13:45:20.634 INFO  Login successfulfor the user, undefined 
+13:45:20.650 INFO  The user undefinedaccessing /homepage 
+13:45:23.255 INFO  The user undefinedlogging out 
+13:45:37.381 INFO  select * from userDetails where email='ni@gmail.com' 
+13:45:37.386 INFO  Login successfulfor the user, undefined 
+13:45:37.398 INFO  The user undefinedaccessing /homepage 
+13:45:38.715 INFO  The user undefinedlogging out 
+13:46:22.888 INFO  select * from userDetails where email='ni@gmail.com' 
+13:46:22.917 INFO  Login successfulfor the user, undefined 
+13:46:22.933 INFO  The user undefinedaccessing /homepage 
+13:46:24.318 INFO  The user undefinedlogging out 
+13:47:08.603 INFO  select * from userDetails where email='ni@gmail.com' 
+13:47:08.636 INFO  Login successfulfor the user, undefined 
+13:47:08.651 INFO  The user undefinedaccessing /homepage 
+13:47:11.203 INFO  The user undefinedlogging out 
+13:47:36.382 INFO  Session expired for the user undefined 
+13:47:56.710 INFO  Session expired for the user undefined 
+13:49:36.571 INFO  select * from userDetails where email='ni@gmail.com' 
+13:49:36.599 INFO  Login successfulfor the user, undefined 
+13:49:36.615 INFO  The user undefinedaccessing /homepage 
+13:49:38.633 INFO  The user undefinedlogging out 
+13:49:46.380 INFO  The user undefinedaccessing /homepage 
+13:50:44.901 INFO  The user 4accessing /homepage 
+13:50:51.425 INFO  The user 4logging out 
+14:03:20.847 INFO  select * from userDetails where email='ni@gmail.com' 
+14:03:20.870 INFO  Login successfulfor the user, undefined 
+14:03:20.881 INFO  The user undefinedaccessing /homepage 
+14:03:22.894 INFO  The user undefinedlogging out 
+14:12:41.261 INFO  select * from userDetails where email='ni@gmail.com' 
+14:12:41.286 INFO  Login successfulfor the user, undefined 
+14:12:41.298 INFO  The user undefinedaccessing /homepage 
+14:12:43.026 INFO  The user undefinedlogging out 
+14:12:54.778 INFO  The user undefinedaccessing /homepage 
+14:12:56.347 INFO  The user undefinedlogging out 
+17:47:24.091 INFO  The user 5accessing /homepage 
+17:50:27.574 INFO  The user 6accessing /homepage 
+17:50:39.553 INFO  The user 6logging out 
+17:50:47.185 INFO  Session expired for the user undefined 
+17:51:37.020 INFO  The user 7accessing /homepage 
+17:51:49.812 INFO  The user 7logging out 
+17:57:54.746 INFO  The user 8accessing /homepage 
+17:58:04.138 INFO  The user 8logging out 
+17:58:23.750 INFO  select * from userDetails where email='vvvv@g.com' 
+17:58:23.757 INFO  Login successfulfor the user, undefined 
+17:58:23.769 INFO  The user undefinedaccessing /homepage 

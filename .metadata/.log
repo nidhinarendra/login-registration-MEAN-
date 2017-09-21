@@ -1,0 +1,711 @@
+!SESSION 2017-09-18 11:45:21.843 -----------------------------------------------
+eclipse.buildId=4.7.0.I20170612-0950
+java.version=1.8.0_101
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product -keyring /Users/Nidhi/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.java.product -keyring /Users/Nidhi/.eclipse_keyring
+
+!ENTRY org.eclipse.core.net 1 0 2017-09-18 11:45:23.734
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY org.eclipse.ui 2 0 2017-09-18 11:45:49.166
+!MESSAGE Warnings while parsing the images from the 'org.eclipse.ui.commandImages' extension point.
+!SUBENTRY 1 org.eclipse.ui 2 0 2017-09-18 11:45:49.166
+!MESSAGE Cannot bind to an undefined command: plug-in='com.genuitec.eclipse.theming.ui', id='com.genuitec.myeclipse.help.darktheme.commandid'
+
+!ENTRY com.genuitec.eclipse.theming.ui 1 0 2017-09-18 11:45:51.463
+!MESSAGE Darkest Dark theme is being activated on this workspace; preparing colors and configuration
+
+!ENTRY com.genuitec.eclipse.theming.ui 1 0 2017-09-18 11:45:53.372
+!MESSAGE Darkest Dark is activating the 'Darkest Dark' Eclipse Color Theme during enablement
+
+!ENTRY org.eclipse.jface 2 0 2017-09-18 11:45:53.986
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2017-09-18 11:45:53.986
+!MESSAGE A conflict occurred for ALT+COMMAND+R:
+Binding(ALT+COMMAND+R,
+	ParameterizedCommand(Command(org.python.pydev.debug.setnext,Set Next Statement,
+		,
+		Category(org.python.pydev.ui.category.run,PyDev - Run,Python run category,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@38624a3a,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+COMMAND+R,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.rename.element,Rename - Refactoring ,
+		Rename the selected element,
+		Category(org.eclipse.jdt.ui.category.refactoring,Refactor - Java,Java Refactoring Actions,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@23b02f37,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,cocoa,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2017-09-18 11:45:53.986
+!MESSAGE A conflict occurred for ALT+COMMAND+C:
+Binding(ALT+COMMAND+C,
+	ParameterizedCommand(Command(de.bastiankrol.startexplorer.copyResourcePathToClipboardFromResourceView,Copy Resource Path to Clipboard,
+		Copies the path of the resource to the clipboard,
+		Category(de.bastiankrol.startexplorer.commands.category,StartExplorer,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@73cdf5f9,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+COMMAND+C,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.modify.method.parameters,Change Method Signature,
+		Change method signature includes parameter names and parameter order,
+		Category(org.eclipse.jdt.ui.category.refactoring,Refactor - Java,Java Refactoring Actions,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@7d619bcb,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,cocoa,system)
+
+!ENTRY org.eclipse.ui 4 4 2017-09-18 11:45:57.402
+!MESSAGE Referenced part does not exist yet: org.eclipse.ui.views.TaskList.
+
+!ENTRY com.genuitec.eclipse.dashboard.common 4 0 2017-09-18 11:46:10.552
+!MESSAGE sbootstrap.startbootstrapc.netdna-cdn.com
+!STACK 0
+java.net.UnknownHostException: sbootstrap.startbootstrapc.netdna-cdn.com
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:184)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at java.net.Socket.connect(Socket.java:538)
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:180)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:432)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:527)
+	at sun.net.www.http.HttpClient.<init>(HttpClient.java:211)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:308)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:326)
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1169)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1148)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:999)
+	at sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:933)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1513)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1441)
+	at com.genuitec.eclipse.dashboard.templates.ImageDownloadRunnable.run(ImageDownloadRunnable.java:51)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+!ENTRY com.genuitec.eclipse.dashboard.common 4 0 2017-09-18 11:46:10.556
+!MESSAGE sbootstrap.startbootstrapc.netdna-cdn.com
+!STACK 0
+java.net.UnknownHostException: sbootstrap.startbootstrapc.netdna-cdn.com
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:184)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at java.net.Socket.connect(Socket.java:538)
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:180)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:432)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:527)
+	at sun.net.www.http.HttpClient.<init>(HttpClient.java:211)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:308)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:326)
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1169)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1148)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:999)
+	at sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:933)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1513)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1441)
+	at com.genuitec.eclipse.dashboard.templates.ImageDownloadRunnable.run(ImageDownloadRunnable.java:51)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+!ENTRY com.genuitec.eclipse.dashboard.common 4 0 2017-09-18 11:46:10.557
+!MESSAGE sbootstrap.startbootstrapc.netdna-cdn.com
+!STACK 0
+java.net.UnknownHostException: sbootstrap.startbootstrapc.netdna-cdn.com
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:184)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at java.net.Socket.connect(Socket.java:538)
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:180)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:432)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:527)
+	at sun.net.www.http.HttpClient.<init>(HttpClient.java:211)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:308)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:326)
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1169)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1148)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:999)
+	at sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:933)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1513)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1441)
+	at com.genuitec.eclipse.dashboard.templates.ImageDownloadRunnable.run(ImageDownloadRunnable.java:51)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+!ENTRY com.genuitec.eclipse.dashboard.common 4 0 2017-09-18 11:46:10.558
+!MESSAGE sbootstrap.startbootstrapc.netdna-cdn.com
+!STACK 0
+java.net.UnknownHostException: sbootstrap.startbootstrapc.netdna-cdn.com
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:184)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at java.net.Socket.connect(Socket.java:538)
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:180)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:432)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:527)
+	at sun.net.www.http.HttpClient.<init>(HttpClient.java:211)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:308)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:326)
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1169)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1148)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:999)
+	at sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:933)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1513)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1441)
+	at com.genuitec.eclipse.dashboard.templates.ImageDownloadRunnable.run(ImageDownloadRunnable.java:51)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+!ENTRY com.genuitec.eclipse.dashboard.common 4 0 2017-09-18 11:46:10.558
+!MESSAGE sbootstrap.startbootstrapc.netdna-cdn.com
+!STACK 0
+java.net.UnknownHostException: sbootstrap.startbootstrapc.netdna-cdn.com
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:184)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at java.net.Socket.connect(Socket.java:538)
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:180)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:432)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:527)
+	at sun.net.www.http.HttpClient.<init>(HttpClient.java:211)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:308)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:326)
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1169)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1148)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:999)
+	at sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:933)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1513)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1441)
+	at com.genuitec.eclipse.dashboard.templates.ImageDownloadRunnable.run(ImageDownloadRunnable.java:51)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+!ENTRY com.genuitec.eclipse.dashboard.common 4 0 2017-09-18 11:46:10.559
+!MESSAGE sbootstrap.startbootstrapc.netdna-cdn.com
+!STACK 0
+java.net.UnknownHostException: sbootstrap.startbootstrapc.netdna-cdn.com
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:184)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at java.net.Socket.connect(Socket.java:538)
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:180)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:432)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:527)
+	at sun.net.www.http.HttpClient.<init>(HttpClient.java:211)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:308)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:326)
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1169)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1148)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:999)
+	at sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:933)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1513)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1441)
+	at com.genuitec.eclipse.dashboard.templates.ImageDownloadRunnable.run(ImageDownloadRunnable.java:51)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+!ENTRY com.genuitec.eclipse.dashboard.common 4 0 2017-09-18 11:46:10.559
+!MESSAGE sbootstrap.startbootstrapc.netdna-cdn.com
+!STACK 0
+java.net.UnknownHostException: sbootstrap.startbootstrapc.netdna-cdn.com
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:184)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at java.net.Socket.connect(Socket.java:538)
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:180)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:432)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:527)
+	at sun.net.www.http.HttpClient.<init>(HttpClient.java:211)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:308)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:326)
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1169)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1148)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:999)
+	at sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:933)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1513)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1441)
+	at com.genuitec.eclipse.dashboard.templates.ImageDownloadRunnable.run(ImageDownloadRunnable.java:51)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+!ENTRY com.genuitec.eclipse.dashboard.common 4 0 2017-09-18 11:46:10.560
+!MESSAGE sbootstrap.startbootstrapc.netdna-cdn.com
+!STACK 0
+java.net.UnknownHostException: sbootstrap.startbootstrapc.netdna-cdn.com
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:184)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at java.net.Socket.connect(Socket.java:538)
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:180)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:432)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:527)
+	at sun.net.www.http.HttpClient.<init>(HttpClient.java:211)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:308)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:326)
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1169)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1148)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:999)
+	at sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:933)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1513)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1441)
+	at com.genuitec.eclipse.dashboard.templates.ImageDownloadRunnable.run(ImageDownloadRunnable.java:51)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+!ENTRY com.genuitec.eclipse.dashboard.common 4 0 2017-09-18 11:46:10.560
+!MESSAGE sbootstrap.startbootstrapc.netdna-cdn.com
+!STACK 0
+java.net.UnknownHostException: sbootstrap.startbootstrapc.netdna-cdn.com
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:184)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at java.net.Socket.connect(Socket.java:538)
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:180)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:432)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:527)
+	at sun.net.www.http.HttpClient.<init>(HttpClient.java:211)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:308)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:326)
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1169)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1148)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:999)
+	at sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:933)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1513)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1441)
+	at com.genuitec.eclipse.dashboard.templates.ImageDownloadRunnable.run(ImageDownloadRunnable.java:51)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+!ENTRY com.genuitec.eclipse.dashboard.common 4 0 2017-09-18 11:46:10.560
+!MESSAGE sbootstrap.startbootstrapc.netdna-cdn.com
+!STACK 0
+java.net.UnknownHostException: sbootstrap.startbootstrapc.netdna-cdn.com
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:184)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at java.net.Socket.connect(Socket.java:538)
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:180)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:432)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:527)
+	at sun.net.www.http.HttpClient.<init>(HttpClient.java:211)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:308)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:326)
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1169)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1148)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:999)
+	at sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:933)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1513)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1441)
+	at com.genuitec.eclipse.dashboard.templates.ImageDownloadRunnable.run(ImageDownloadRunnable.java:51)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+!ENTRY com.genuitec.eclipse.dashboard.common 4 0 2017-09-18 11:46:10.561
+!MESSAGE sbootstrap.startbootstrapc.netdna-cdn.com
+!STACK 0
+java.net.UnknownHostException: sbootstrap.startbootstrapc.netdna-cdn.com
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:184)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at java.net.Socket.connect(Socket.java:538)
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:180)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:432)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:527)
+	at sun.net.www.http.HttpClient.<init>(HttpClient.java:211)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:308)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:326)
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1169)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1148)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:999)
+	at sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:933)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1513)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1441)
+	at com.genuitec.eclipse.dashboard.templates.ImageDownloadRunnable.run(ImageDownloadRunnable.java:51)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+!ENTRY com.genuitec.eclipse.dashboard.common 4 0 2017-09-18 11:46:10.561
+!MESSAGE sbootstrap.startbootstrapc.netdna-cdn.com
+!STACK 0
+java.net.UnknownHostException: sbootstrap.startbootstrapc.netdna-cdn.com
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:184)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at java.net.Socket.connect(Socket.java:538)
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:180)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:432)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:527)
+	at sun.net.www.http.HttpClient.<init>(HttpClient.java:211)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:308)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:326)
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1169)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1148)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:999)
+	at sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:933)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1513)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1441)
+	at com.genuitec.eclipse.dashboard.templates.ImageDownloadRunnable.run(ImageDownloadRunnable.java:51)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+!ENTRY com.genuitec.eclipse.dashboard.common 4 0 2017-09-18 11:46:12.586
+!MESSAGE sbootstrap.startbootstrapc.netdna-cdn.com
+!STACK 0
+java.net.UnknownHostException: sbootstrap.startbootstrapc.netdna-cdn.com
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:184)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at java.net.Socket.connect(Socket.java:538)
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:180)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:432)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:527)
+	at sun.net.www.http.HttpClient.<init>(HttpClient.java:211)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:308)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:326)
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1169)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1148)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:999)
+	at sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:933)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1513)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1441)
+	at com.genuitec.eclipse.dashboard.templates.ImageDownloadRunnable.run(ImageDownloadRunnable.java:51)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+!ENTRY com.genuitec.eclipse.dashboard.common 4 0 2017-09-18 11:46:12.587
+!MESSAGE sbootstrap.startbootstrapc.netdna-cdn.com
+!STACK 0
+java.net.UnknownHostException: sbootstrap.startbootstrapc.netdna-cdn.com
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:184)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at java.net.Socket.connect(Socket.java:538)
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:180)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:432)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:527)
+	at sun.net.www.http.HttpClient.<init>(HttpClient.java:211)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:308)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:326)
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1169)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1148)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:999)
+	at sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:933)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1513)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1441)
+	at com.genuitec.eclipse.dashboard.templates.ImageDownloadRunnable.run(ImageDownloadRunnable.java:51)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+!ENTRY com.genuitec.eclipse.dashboard.common 4 0 2017-09-18 11:46:12.587
+!MESSAGE sbootstrap.startbootstrapc.netdna-cdn.com
+!STACK 0
+java.net.UnknownHostException: sbootstrap.startbootstrapc.netdna-cdn.com
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:184)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at java.net.Socket.connect(Socket.java:538)
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:180)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:432)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:527)
+	at sun.net.www.http.HttpClient.<init>(HttpClient.java:211)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:308)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:326)
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1169)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1148)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:999)
+	at sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:933)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1513)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1441)
+	at com.genuitec.eclipse.dashboard.templates.ImageDownloadRunnable.run(ImageDownloadRunnable.java:51)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+!ENTRY com.genuitec.eclipse.dashboard.common 4 0 2017-09-18 11:46:12.588
+!MESSAGE sbootstrap.startbootstrapc.netdna-cdn.com
+!STACK 0
+java.net.UnknownHostException: sbootstrap.startbootstrapc.netdna-cdn.com
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:184)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at java.net.Socket.connect(Socket.java:538)
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:180)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:432)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:527)
+	at sun.net.www.http.HttpClient.<init>(HttpClient.java:211)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:308)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:326)
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1169)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1148)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:999)
+	at sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:933)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1513)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1441)
+	at com.genuitec.eclipse.dashboard.templates.ImageDownloadRunnable.run(ImageDownloadRunnable.java:51)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+!ENTRY com.genuitec.eclipse.dashboard.common 4 0 2017-09-18 11:46:12.589
+!MESSAGE sbootstrap.startbootstrapc.netdna-cdn.com
+!STACK 0
+java.net.UnknownHostException: sbootstrap.startbootstrapc.netdna-cdn.com
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:184)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at java.net.Socket.connect(Socket.java:538)
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:180)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:432)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:527)
+	at sun.net.www.http.HttpClient.<init>(HttpClient.java:211)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:308)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:326)
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1169)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1148)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:999)
+	at sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:933)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1513)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1441)
+	at com.genuitec.eclipse.dashboard.templates.ImageDownloadRunnable.run(ImageDownloadRunnable.java:51)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+!ENTRY com.genuitec.eclipse.dashboard.common 4 0 2017-09-18 11:46:12.590
+!MESSAGE sbootstrap.startbootstrapc.netdna-cdn.com
+!STACK 0
+java.net.UnknownHostException: sbootstrap.startbootstrapc.netdna-cdn.com
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:184)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at java.net.Socket.connect(Socket.java:538)
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:180)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:432)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:527)
+	at sun.net.www.http.HttpClient.<init>(HttpClient.java:211)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:308)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:326)
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1169)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1148)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:999)
+	at sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:933)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1513)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1441)
+	at com.genuitec.eclipse.dashboard.templates.ImageDownloadRunnable.run(ImageDownloadRunnable.java:51)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+!ENTRY com.genuitec.eclipse.dashboard.common 4 0 2017-09-18 11:46:12.590
+!MESSAGE sbootstrap.startbootstrapc.netdna-cdn.com
+!STACK 0
+java.net.UnknownHostException: sbootstrap.startbootstrapc.netdna-cdn.com
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:184)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at java.net.Socket.connect(Socket.java:538)
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:180)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:432)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:527)
+	at sun.net.www.http.HttpClient.<init>(HttpClient.java:211)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:308)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:326)
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1169)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1148)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:999)
+	at sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:933)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1513)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1441)
+	at com.genuitec.eclipse.dashboard.templates.ImageDownloadRunnable.run(ImageDownloadRunnable.java:51)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+!ENTRY com.genuitec.eclipse.dashboard.common 4 0 2017-09-18 11:46:12.591
+!MESSAGE sbootstrap.startbootstrapc.netdna-cdn.com
+!STACK 0
+java.net.UnknownHostException: sbootstrap.startbootstrapc.netdna-cdn.com
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:184)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at java.net.Socket.connect(Socket.java:538)
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:180)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:432)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:527)
+	at sun.net.www.http.HttpClient.<init>(HttpClient.java:211)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:308)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:326)
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1169)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1148)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:999)
+	at sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:933)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1513)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1441)
+	at com.genuitec.eclipse.dashboard.templates.ImageDownloadRunnable.run(ImageDownloadRunnable.java:51)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+!ENTRY com.genuitec.eclipse.dashboard.common 4 0 2017-09-18 11:46:12.592
+!MESSAGE sbootstrap.startbootstrapc.netdna-cdn.com
+!STACK 0
+java.net.UnknownHostException: sbootstrap.startbootstrapc.netdna-cdn.com
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:184)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at java.net.Socket.connect(Socket.java:538)
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:180)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:432)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:527)
+	at sun.net.www.http.HttpClient.<init>(HttpClient.java:211)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:308)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:326)
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1169)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1148)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:999)
+	at sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:933)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1513)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1441)
+	at com.genuitec.eclipse.dashboard.templates.ImageDownloadRunnable.run(ImageDownloadRunnable.java:51)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+!ENTRY com.genuitec.eclipse.dashboard.common 4 0 2017-09-18 11:46:12.593
+!MESSAGE sbootstrap.startbootstrapc.netdna-cdn.com
+!STACK 0
+java.net.UnknownHostException: sbootstrap.startbootstrapc.netdna-cdn.com
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:184)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at java.net.Socket.connect(Socket.java:538)
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:180)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:432)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:527)
+	at sun.net.www.http.HttpClient.<init>(HttpClient.java:211)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:308)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:326)
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1169)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1148)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:999)
+	at sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:933)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1513)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1441)
+	at com.genuitec.eclipse.dashboard.templates.ImageDownloadRunnable.run(ImageDownloadRunnable.java:51)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+!ENTRY com.genuitec.eclipse.dashboard.common 4 0 2017-09-18 11:46:12.593
+!MESSAGE sbootstrap.startbootstrapc.netdna-cdn.com
+!STACK 0
+java.net.UnknownHostException: sbootstrap.startbootstrapc.netdna-cdn.com
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:184)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at java.net.Socket.connect(Socket.java:538)
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:180)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:432)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:527)
+	at sun.net.www.http.HttpClient.<init>(HttpClient.java:211)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:308)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:326)
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1169)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1148)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:999)
+	at sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:933)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1513)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1441)
+	at com.genuitec.eclipse.dashboard.templates.ImageDownloadRunnable.run(ImageDownloadRunnable.java:51)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+!ENTRY com.genuitec.eclipse.dashboard.common 4 0 2017-09-18 11:46:12.594
+!MESSAGE sbootstrap.startbootstrapc.netdna-cdn.com
+!STACK 0
+java.net.UnknownHostException: sbootstrap.startbootstrapc.netdna-cdn.com
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:184)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at java.net.Socket.connect(Socket.java:538)
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:180)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:432)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:527)
+	at sun.net.www.http.HttpClient.<init>(HttpClient.java:211)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:308)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:326)
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1169)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1148)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:999)
+	at sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:933)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1513)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1441)
+	at com.genuitec.eclipse.dashboard.templates.ImageDownloadRunnable.run(ImageDownloadRunnable.java:51)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
